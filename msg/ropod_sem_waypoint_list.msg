@@ -1,2 +1,2 @@
 std_msgs/Header header
-ropod_semantic_waypoint[] sem_waypoint
+ropod_sem_waypoint[] sem_waypoint

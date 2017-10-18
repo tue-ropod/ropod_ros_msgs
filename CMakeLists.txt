@@ -7,6 +7,8 @@ add_message_files(
    FILES
    ropod_control_primitive.msg
    sem_waypoint_cmd.msg
+   ropod_sem_waypoint.msg
+   ropod_sem_waypoint_list.msg
 )
 
 generate_messages(
