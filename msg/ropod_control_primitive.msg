@@ -1,3 +1,3 @@
 std_msgs/Header header
 string behaviour
-geometry_msgs/Point[] point
+geometry_msgs/PoseStamped[] poses
