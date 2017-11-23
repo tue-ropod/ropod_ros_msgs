@@ -1,4 +1,2 @@
 string id
-string status
-uint16 sequenceNumber
-uint16 totalNumber
+ropod_demo_status status
