@@ -26,6 +26,13 @@ add_message_files(
    ElevatorRequestReply.msg
    ElevatorRobotConfirmation.msg
 )
+
+add_message_files(
+   DIRECTORY robot
+   FILES
+   RobotStatus.msg
+)
+
 add_message_files(
    DIRECTORY task
    FILES
