@@ -19,6 +19,35 @@ add_message_files(
    ropod_demo_status_update.msg
    ropod_demo_waypoint.msg
 )
+add_message_files(
+   DIRECTORY elevators
+   FILES
+   ElevatorRequest.msg
+   ElevatorRequestReply.msg
+   ElevatorRobotConfirmation.msg
+)
+
+add_message_files(
+   DIRECTORY robot
+   FILES
+   RobotStatus.msg
+)
+
+add_message_files(
+   DIRECTORY task
+   FILES
+   Action.msg
+   RobotTask.msg
+   RobotTaskUpdate.msg
+   Task.msg
+)
+
+add_message_files(
+   DIRECTORY world_model
+   FILES
+   Area.msg
+   Waypoint.msg
+)
 
 generate_messages(
   DEPENDENCIES
