@@ -20,6 +20,13 @@ add_message_files(
    ropod_demo_waypoint.msg
 )
 add_message_files(
+   DIRECTORY elevators
+   FILES
+   ElevatorRequest.msg
+   ElevatorRequestReply.msg
+   ElevatorRobotConfirmation.msg
+)
+add_message_files(
    DIRECTORY task
    FILES
    Action.msg

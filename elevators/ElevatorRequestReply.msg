@@ -1,0 +1,3 @@
+bool query_succes
+uint16 elevator_id
+string elevator_waypoint_id
