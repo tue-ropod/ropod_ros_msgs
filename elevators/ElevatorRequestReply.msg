@@ -1,3 +1,4 @@
-bool query_succes
+string query_id
+bool query_success
 uint16 elevator_id
-string elevator_waypoint_id
+string elevator_waypoint
