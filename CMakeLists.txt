@@ -31,6 +31,7 @@ add_message_files(
    DIRECTORY robot
    FILES
    RobotStatus.msg
+   SmartWheelData.msg
    SmartWheelInputData.msg
    SmartWheelOutputData.msg
 )
