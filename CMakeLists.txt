@@ -40,6 +40,7 @@ add_message_files(
    DIRECTORY task
    FILES
    Action.msg
+   RobotAction.msg
    RobotTask.msg
    RobotTaskUpdate.msg
    Task.msg
@@ -53,6 +54,7 @@ add_message_files(
    Waypoint.msg
    Position.msg
    Shape.msg
+   NavigationArea.msg
 )
 
 add_message_files(
