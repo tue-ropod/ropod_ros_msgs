@@ -53,6 +53,22 @@ add_message_files(
    Waypoint.msg
 )
 
+add_message_files(
+   DIRECTORY osm
+   FILES
+   osm_node.msg
+   osm_way.msg
+   osm_tag.msg
+   osm_relation.msg
+   osm_member.msg
+)
+
+add_service_files(
+  DIRECTORY srv
+  FILES
+  osm_query.srv
+)
+
 generate_messages(
   DEPENDENCIES
   std_msgs
