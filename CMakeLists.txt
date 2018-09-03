@@ -67,6 +67,7 @@ add_service_files(
   DIRECTORY srv
   FILES
   osm_query.srv
+  route_planner.srv
 )
 
 generate_messages(
