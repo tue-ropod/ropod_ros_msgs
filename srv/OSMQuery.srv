@@ -1,0 +1,7 @@
+int32[] ids
+string query_type
+string data_type
+---
+OSMNode[] nodes
+OSMWay[] ways
+OSMRelation[] relations

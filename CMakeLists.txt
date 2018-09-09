@@ -56,18 +56,18 @@ add_message_files(
 add_message_files(
    DIRECTORY osm
    FILES
-   osm_node.msg
-   osm_way.msg
-   osm_tag.msg
-   osm_relation.msg
-   osm_member.msg
+   OSMNode.msg
+   OSMWay.msg
+   OSMTag.msg
+   OSMRelation.msg
+   OSMMember.msg
 )
 
 add_service_files(
   DIRECTORY srv
   FILES
-  osm_query.srv
-  route_planner.srv
+  OSMQuery.srv
+  RoutePlanner.srv
 )
 
 generate_messages(
