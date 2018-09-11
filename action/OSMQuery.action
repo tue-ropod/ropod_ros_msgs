@@ -5,3 +5,4 @@ string data_type
 OSMNode[] nodes
 OSMWay[] ways
 OSMRelation[] relations
+---
