@@ -30,6 +30,7 @@ add_message_files(
    RobotTaskUpdate.msg
    Task.msg
    TaskProgressGOTO.msg
+   TaskProgressDOCK.msg
 )
 
 add_message_files(
