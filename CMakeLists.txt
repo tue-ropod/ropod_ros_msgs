@@ -40,6 +40,7 @@ add_message_files(
    Position.msg
    Shape.msg
    NavigationArea.msg
+   DoorDetection.msg
 )
 
 add_message_files(
