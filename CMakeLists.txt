@@ -4,7 +4,6 @@ project(ropod_ros_msgs)
 find_package(catkin REQUIRED COMPONENTS message_generation std_msgs geometry_msgs genmsg actionlib_msgs actionlib)
 
 add_message_files(
-add_message_files(
    DIRECTORY elevators
    FILES
    ElevatorRequest.msg
