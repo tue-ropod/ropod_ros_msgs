@@ -8,6 +8,7 @@ string action_id
 string action_type
 string area_name
 
-uint16 status
 uint16 sequenceNumber
 uint16 totalNumber
+Status status
+Status task_status
