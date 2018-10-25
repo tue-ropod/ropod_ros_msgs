@@ -54,6 +54,15 @@ add_message_files(
    OSMMember.msg
 )
 
+add_message_files(
+   DIRECTORY experiments
+   FILES
+   ExecuteCommand.msg
+   PauseCommand.msg
+   ContinueCommand.msg
+   CancelCommand.msg
+)
+
 add_action_files(
   DIRECTORY action
   FILES
