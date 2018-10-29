@@ -57,10 +57,7 @@ add_message_files(
 add_message_files(
    DIRECTORY experiments
    FILES
-   ExecuteCommand.msg
-   PauseCommand.msg
-   ContinueCommand.msg
-   CancelCommand.msg
+   ExecuteExperiment.msg
    CommandFeedback.msg
 )
 
