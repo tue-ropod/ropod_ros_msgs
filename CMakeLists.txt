@@ -61,6 +61,7 @@ add_message_files(
    PauseCommand.msg
    ContinueCommand.msg
    CancelCommand.msg
+   CommandFeedback.msg
 )
 
 add_action_files(
