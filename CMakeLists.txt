@@ -59,6 +59,7 @@ add_message_files(
    FILES
    ExecuteExperiment.msg
    CommandFeedback.msg
+   ExperimentFeedback.msg
 )
 
 add_action_files(
