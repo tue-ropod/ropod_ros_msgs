@@ -54,6 +54,14 @@ add_message_files(
    OSMMember.msg
 )
 
+add_message_files(
+   DIRECTORY experiments
+   FILES
+   ExecuteExperiment.msg
+   CommandFeedback.msg
+   ExperimentFeedback.msg
+)
+
 add_action_files(
   DIRECTORY action
   FILES
