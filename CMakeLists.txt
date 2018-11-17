@@ -62,6 +62,12 @@ add_message_files(
    ExperimentFeedback.msg
 )
 
+add_message_files(
+  DIRECTORY monitoring
+  FILES
+  StateInfo.msg
+)
+
 add_action_files(
   DIRECTORY action
   FILES
