@@ -1,5 +1,6 @@
-int32[] ids
+int32 id
+string ref
+string type
 ---
-int32[] ids
-Position[] positions
+Position position
 ---

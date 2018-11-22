@@ -44,15 +44,6 @@ add_message_files(
    DoorDetection.msg
 )
 
-add_message_files(
-   DIRECTORY osm
-   FILES
-   OSMNode.msg
-   OSMWay.msg
-   OSMTag.msg
-   OSMRelation.msg
-   OSMMember.msg
-)
 
 add_message_files(
    DIRECTORY experiments
@@ -71,7 +62,6 @@ add_message_files(
 add_action_files(
   DIRECTORY action
   FILES
-  OSMQuery.action
   RoutePlanner.action
   GetWayptPosition.action
   GetWayptShape.action
