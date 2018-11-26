@@ -37,11 +37,11 @@ add_message_files(
    DIRECTORY world_model
    FILES
    Area.msg
-   Waypoint.msg
-   NavigationArea.msg
+   SubArea.msg
    Position.msg
    Shape.msg
    DoorDetection.msg
+   NavigationArea.msg
 )
 
 
@@ -63,8 +63,8 @@ add_action_files(
   DIRECTORY action
   FILES
   RoutePlanner.action
-  GetWayptPosition.action
-  GetWayptShape.action
+  GetTopologyNode.action
+  GetShape.action
 )
 
 generate_messages(

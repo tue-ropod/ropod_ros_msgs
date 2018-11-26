@@ -1,4 +1,4 @@
 string area_id
 string name
 string type
-Waypoint[] waypoints
+SubArea[] sub_areas
