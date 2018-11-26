@@ -42,6 +42,7 @@ add_message_files(
    Shape.msg
    DoorDetection.msg
    NavigationArea.msg
+   Waypoint.msg
 )
 
 
