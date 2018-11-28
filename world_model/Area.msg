@@ -1,4 +1,4 @@
-string area_id
+string id
 string name
 string type
 int16 floor_number
