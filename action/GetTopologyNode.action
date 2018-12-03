@@ -1,0 +1,6 @@
+int32 id
+string ref
+string type
+---
+Position position
+---

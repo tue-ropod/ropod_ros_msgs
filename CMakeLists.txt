@@ -37,22 +37,14 @@ add_message_files(
    DIRECTORY world_model
    FILES
    Area.msg
-   Waypoint.msg
-   NavigationArea.msg
+   SubArea.msg
    Position.msg
    Shape.msg
    DoorDetection.msg
+   NavigationArea.msg
+   Waypoint.msg
 )
 
-add_message_files(
-   DIRECTORY osm
-   FILES
-   OSMNode.msg
-   OSMWay.msg
-   OSMTag.msg
-   OSMRelation.msg
-   OSMMember.msg
-)
 
 add_message_files(
    DIRECTORY experiments
@@ -71,10 +63,9 @@ add_message_files(
 add_action_files(
   DIRECTORY action
   FILES
-  OSMQuery.action
   RoutePlanner.action
-  GetWayptPosition.action
-  GetWayptShape.action
+  GetTopologyNode.action
+  GetShape.action
 )
 
 generate_messages(

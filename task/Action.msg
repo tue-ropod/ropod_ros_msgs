@@ -1,7 +1,7 @@
 string action_id
 string type
 Area[] areas
-Waypoint[] waypoints
+SubArea[] sub_areas
 uint16 start_floor
 uint16 goal_floor
 string execution_status
