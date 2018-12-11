@@ -18,6 +18,8 @@ add_message_files(
    SmartWheelData.msg
    SmartWheelInputData.msg
    SmartWheelOutputData.msg
+   SmartWheelCommand.msg
+   SmartWheelCommandList.msg
 )
 
 add_message_files(
