@@ -1,0 +1,13 @@
+int32 start_floor
+int32 destination_floor
+string start_area
+string destination_area
+string start_sub_area
+string destination_sub_area
+Position start_position
+string destination_task
+BlockedConnection[] blocked_connections
+bool relax_traffic_rules
+---
+PathPlan path_plan
+---
