@@ -45,6 +45,8 @@ add_message_files(
    DoorDetection.msg
    NavigationArea.msg
    Waypoint.msg
+   PathPlan.msg
+   BlockedConnection.msg
 )
 
 
@@ -68,6 +70,7 @@ add_action_files(
   RoutePlanner.action
   GetTopologyNode.action
   GetShape.action
+  GetPathPlan.action
 )
 
 generate_messages(
