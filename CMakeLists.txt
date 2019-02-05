@@ -71,6 +71,7 @@ add_action_files(
   GetTopologyNode.action
   GetShape.action
   GetPathPlan.action
+  GetElevatorWaypoints.action
 )
 
 generate_messages(
