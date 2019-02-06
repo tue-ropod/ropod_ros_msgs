@@ -16,6 +16,10 @@ uint16 REACHED=10
 ## Docking and undocking
 uint16 UNDOCKED=11 # Successfuly undocked
 uint16 DOCKED=12 # Successfully docked
+## elevator
+uint16 WAITING=13
+uint16 ENTERING=14
+uint16 EXITING=15
 # ****************************************************************************
 # TASK FEEDBACK STATUS CODES
 uint16 COMPLETED=20

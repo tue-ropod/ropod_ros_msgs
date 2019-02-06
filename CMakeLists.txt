@@ -32,6 +32,7 @@ add_message_files(
    Task.msg
    TaskProgressGOTO.msg
    TaskProgressDOCK.msg
+   TaskProgressELEVATOR.msg
    Status.msg
 )
 
