@@ -74,6 +74,12 @@ add_action_files(
   GetElevatorWaypoints.action
 )
 
+add_service_files(
+  DIRECTORY srv
+  FILES 
+  GetDoorStatus.srv
+)
+
 generate_messages(
   DEPENDENCIES
   std_msgs
