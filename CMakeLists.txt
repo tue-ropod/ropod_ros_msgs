@@ -65,6 +65,13 @@ add_message_files(
   StateInfo.msg
 )
 
+add_message_files(
+   DIRECTORY docking
+   FILES
+   DockingCommand.msg
+   DockingFeedback.msg
+)
+
 add_action_files(
   DIRECTORY action
   FILES
