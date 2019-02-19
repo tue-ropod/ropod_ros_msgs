@@ -26,6 +26,7 @@ add_message_files(
    DIRECTORY task
    FILES
    Action.msg
+   Elevator.msg
    RobotAction.msg
    RobotTask.msg
    RobotTaskUpdate.msg
@@ -84,7 +85,7 @@ add_action_files(
 
 add_service_files(
   DIRECTORY srv
-  FILES 
+  FILES
   GetDoorStatus.srv
 )
 
