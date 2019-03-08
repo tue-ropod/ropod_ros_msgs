@@ -64,6 +64,7 @@ add_message_files(
   DIRECTORY monitoring
   FILES
   StateInfo.msg
+  Event.msg
 )
 
 add_message_files(
