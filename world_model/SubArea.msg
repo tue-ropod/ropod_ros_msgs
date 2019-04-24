@@ -1,5 +1,5 @@
 string name
-int16 id
+string id
 int16 floor_number
 string type
 int16 capacity
