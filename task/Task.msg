@@ -1,6 +1,11 @@
 string task_id
 Action[] robot_actions
-string cart_type
-string cart_id
+string load_type
+string load_id
 string[] team_robot_ids
 float64 start_time
+float64 finish_time
+float64 earliest_start_time
+float64 latest_start_time
+float64 estimated_duration
+int16 priority
