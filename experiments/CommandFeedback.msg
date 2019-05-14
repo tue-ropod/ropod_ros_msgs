@@ -1,6 +1,7 @@
 string ONGOING=ONGOING
 string FINISHED=FINISHED
 string FAILED=FAILED
+string PREEMPTED=PREEMPTED
 
 time stamp
 string command_name
