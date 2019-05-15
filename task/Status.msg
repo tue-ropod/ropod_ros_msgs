@@ -92,10 +92,10 @@ uint16 ACTIVE_SEARCH_MODE=27
 #uint16 RECOVERING=7  # FTSM; in case a more detailed code is not available
 #uint16 STOPPED=8     # FTSM; in case a more detailed code is not available
 
-uint16 ELEVATOR_REACHED=9      # was initially uint16 WAITING=13
-uint16 WAITING=10      # was initially uint16 WAITING=13
-uint16 ENTERING=11    # was initially uint16 ENTERING=14
-uint16 EXITING=12     # was initially uint16 EXITING=15
+#uint16 GOAL_REACHED=10 # same naming as for navigation 
+uint16 WAITING=11      # was initially uint16 WAITING=13
+uint16 ENTERING=12    # was initially uint16 ENTERING=14
+uint16 EXITING=13     # was initially uint16 EXITING=15
 
 
 
