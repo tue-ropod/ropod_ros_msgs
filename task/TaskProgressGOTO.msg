@@ -1,7 +1,3 @@
-uint16 ONGOING=0
-uint16 FAILED=1
-uint16 REACHED=2
-
 string task_id
 string robot_id
 string action_id
