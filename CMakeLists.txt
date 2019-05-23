@@ -31,6 +31,7 @@ add_message_files(
    RobotTask.msg
    RobotTaskUpdate.msg
    Task.msg
+   TaskRequest.msg
    TaskProgressGOTO.msg
    TaskProgressDOCK.msg
    TaskProgressELEVATOR.msg
