@@ -59,6 +59,8 @@ add_message_files(
    ExecuteExperiment.msg
    CommandFeedback.msg
    ExperimentFeedback.msg
+   Transition.msg
+   TransitionList.msg
 )
 
 add_message_files(
