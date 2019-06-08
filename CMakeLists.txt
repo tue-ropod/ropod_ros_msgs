@@ -56,9 +56,6 @@ add_message_files(
 add_message_files(
    DIRECTORY experiments
    FILES
-   ExecuteExperiment.msg
-   CommandFeedback.msg
-   ExperimentFeedback.msg
    Transition.msg
    TransitionList.msg
 )
@@ -85,6 +82,7 @@ add_action_files(
   GetShape.action
   GetPathPlan.action
   GetElevatorWaypoints.action
+  ExecuteExperiment.action
 )
 
 add_service_files(
