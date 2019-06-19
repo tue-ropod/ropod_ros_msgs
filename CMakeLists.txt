@@ -82,6 +82,7 @@ add_action_files(
   GetShape.action
   GetPathPlan.action
   GetElevatorWaypoints.action
+  GetNearestWLAN.action
   ExecuteExperiment.action
 )
 
