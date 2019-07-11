@@ -50,6 +50,7 @@ add_message_files(
    Waypoint.msg
    PathPlan.msg
    BlockedConnection.msg
+   Side.msg
 )
 
 
