@@ -1,0 +1,5 @@
+# optional area within which the cart should exist
+geometry_msgs/Polygon area
+---
+ropod_ros_msgs/Cart cart
+---
