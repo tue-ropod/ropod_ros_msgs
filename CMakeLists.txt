@@ -89,6 +89,9 @@ add_action_files(
   GetCart.action
   GetCartCandidates.action
   GetDockingPose.action
+  GoTo.action
+  Dock.action
+  NavElevator.action
 )
 
 add_service_files(
