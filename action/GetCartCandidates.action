@@ -1,5 +1,6 @@
 # optional area within which the cart candidates should exist
 geometry_msgs/Polygon area
+string area_id
 ---
 ropod_ros_msgs/Cart[] cart_candidates
 ---
