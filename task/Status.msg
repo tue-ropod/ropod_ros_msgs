@@ -95,6 +95,7 @@ uint16 ACTIVE_SEARCH_MODE=27
 #uint16 GOAL_REACHED=10 # same naming as for navigation
 uint16 WAITING=9      # was initially uint16 WAITING=13
 uint16 ENTERING=10    # was initially uint16 ENTERING=14
+uint16 RIDING_ELEVATOR=34
 uint16 EXITING=11     # was initially uint16 EXITING=15
 
 uint16 WAITING_POINT_REACHED=12
@@ -103,6 +104,12 @@ uint16 ENTERED_ELEVATOR=14
 uint16 DESTINATION_FLOOR_REACHED=15
 uint16 EXITED_ELEVATOR=16
 
+uint16 WAITING_FOR_ELEVATOR_FAILED=29
+uint16 ELEVATOR_ENTERING_FAILED=30
+uint16 ELEVATOR_RIDE_TIMEOUT=31
+uint16 ELEVATOR_RIDE_MAP_CHANGE_FAILURE=31
+uint16 ELEVATOR_EXITING_FAILED=32
+uint16 ELEVATOR_ACTION_PREEMPTED=33
 
 # ****************************************************************************
 uint16 domain      # cf. DOMAINS section
