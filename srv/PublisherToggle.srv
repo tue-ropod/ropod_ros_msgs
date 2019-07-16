@@ -1,0 +1,6 @@
+string publisher_type
+geometry_msgs/Polygon polygon
+# true to start publisher, false to stop publisher
+bool enable_publisher
+---
+bool success

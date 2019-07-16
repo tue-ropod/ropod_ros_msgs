@@ -98,6 +98,7 @@ add_service_files(
   DIRECTORY srv
   FILES
   GetDoorStatus.srv
+  PublisherToggle.srv
 )
 
 generate_messages(
