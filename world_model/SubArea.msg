@@ -1,0 +1,10 @@
+string name
+string id
+int16 floor_number
+string type
+int16 capacity
+geometry_msgs/Pose waypoint_pose
+ropod_ros_msgs/Shape geometry
+ropod_ros_msgs/Side right
+ropod_ros_msgs/Side left
+ropod_ros_msgs/Position turn_point

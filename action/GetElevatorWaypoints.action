@@ -1,0 +1,6 @@
+int32 elevator_id
+int32 door_id
+---
+geometry_msgs/Pose wp_outside
+geometry_msgs/Pose wp_inside
+---

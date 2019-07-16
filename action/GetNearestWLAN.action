@@ -1,0 +1,23 @@
+# Goal
+
+# The information can be provided with any of the following ways. Provide:
+# - position and floor
+# - position and area
+# - position and local_area
+# - just area
+# - just local_area
+
+# tells server if position value should be considered or not
+bool is_pos_provided
+
+# robot's current position in map coordinates
+Position position
+# robot's current position in OSM semantic form
+string floor
+string area
+string local_area
+---
+# Result
+Position wlan_pose
+---
+# Feedback

@@ -1,0 +1,19 @@
+time stamp
+string experiment_type
+---
+string FINISHED=FINISHED
+string FAILED=FAILED
+
+time stamp
+string experiment_type
+string result
+---
+string ONGOING=ONGOING
+string FINISHED=FINISHED
+string FAILED=FAILED
+string PREEMPTED=PREEMPTED
+
+time stamp
+string command_name
+string state
+

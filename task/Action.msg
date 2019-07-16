@@ -1,8 +1,9 @@
 string action_id
 string type
 Area[] areas
-Waypoint[] waypoints
-uint16 start_floor
-uint16 goal_floor
+SubArea[] sub_areas
+Elevator elevator
+int16 start_floor
+int16 goal_floor
 string execution_status
 float64 estimated_duration

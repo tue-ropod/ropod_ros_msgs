@@ -4,22 +4,6 @@ project(ropod_ros_msgs)
 find_package(catkin REQUIRED COMPONENTS message_generation std_msgs geometry_msgs genmsg actionlib_msgs actionlib)
 
 add_message_files(
-   FILES
-   ropod_control_primitive.msg
-   sem_waypoint_cmd.msg
-   ropod_sem_waypoint.msg
-   ropod_sem_waypoint_list.msg
-   ropod_door_detection.msg
-   ropod_demo_location.msg
-   ropod_demo_area.msg
-   ropod_demo_plan.msg
-   ropod_demo_sem_location_list.msg
-   ropod_demo_sem_location.msg
-   ropod_demo_status.msg
-   ropod_demo_status_update.msg
-   ropod_demo_waypoint.msg
-)
-add_message_files(
    DIRECTORY elevators
    FILES
    ElevatorRequest.msg
@@ -34,35 +18,54 @@ add_message_files(
    SmartWheelData.msg
    SmartWheelInputData.msg
    SmartWheelOutputData.msg
+   SmartWheelCommand.msg
+   SmartWheelCommandList.msg
 )
 
 add_message_files(
    DIRECTORY task
    FILES
    Action.msg
+   Elevator.msg
+   RobotAction.msg
    RobotTask.msg
    RobotTaskUpdate.msg
    Task.msg
+   TaskRequest.msg
    TaskProgressGOTO.msg
+   TaskProgressDOCK.msg
+   TaskProgressELEVATOR.msg
+   Status.msg
 )
 
 add_message_files(
    DIRECTORY world_model
    FILES
    Area.msg
-   Waypoint.msg
+   SubArea.msg
    Position.msg
    Shape.msg
+   DoorDetection.msg
+   NavigationArea.msg
+   Waypoint.msg
+   PathPlan.msg
+   BlockedConnection.msg
+   Side.msg
+)
+
+
+add_message_files(
+   DIRECTORY experiments
+   FILES
+   Transition.msg
+   TransitionList.msg
 )
 
 add_message_files(
-   DIRECTORY osm
-   FILES
-   OSMNode.msg
-   OSMWay.msg
-   OSMTag.msg
-   OSMRelation.msg
-   OSMMember.msg
+  DIRECTORY monitoring
+  FILES
+  StateInfo.msg
+  Event.msg
 )
 
 add_message_files(
@@ -75,10 +78,19 @@ add_message_files(
 add_action_files(
   DIRECTORY action
   FILES
-  OSMQuery.action
   RoutePlanner.action
-  GetWayptPosition.action
-  GetWayptShape.action
+  GetTopologyNode.action
+  GetShape.action
+  GetPathPlan.action
+  GetElevatorWaypoints.action
+  GetNearestWLAN.action
+  ExecuteExperiment.action
+)
+
+add_service_files(
+  DIRECTORY srv
+  FILES
+  GetDoorStatus.srv
 )
 
 generate_messages(

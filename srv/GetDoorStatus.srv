@@ -1,0 +1,4 @@
+geometry_msgs/Pose robot_pose
+Position door_position
+---
+bool status
