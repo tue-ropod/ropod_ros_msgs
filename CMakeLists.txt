@@ -51,6 +51,7 @@ add_message_files(
    PathPlan.msg
    BlockedConnection.msg
    Side.msg
+   KeyValue.msg
    Object.msg
    ObjectList.msg
 )
