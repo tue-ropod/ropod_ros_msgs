@@ -51,7 +51,8 @@ add_message_files(
    PathPlan.msg
    BlockedConnection.msg
    Side.msg
-   Cart.msg
+   Object.msg
+   ObjectList.msg
 )
 
 
@@ -86,8 +87,7 @@ add_action_files(
   GetElevatorWaypoints.action
   GetNearestWLAN.action
   ExecuteExperiment.action
-  GetCart.action
-  GetCartCandidates.action
+  GetObjects.action
   GetDockingPose.action
 )
 
