@@ -1,1 +1,1 @@
-ropod_ros_msgs/Object objects
+ropod_ros_msgs/Object[] objects

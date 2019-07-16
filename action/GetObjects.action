@@ -8,5 +8,5 @@ string area_id
 # if false; query was not able to executed
 # note: could be true with an empty list of objects returned
 bool success
-ropod_ros_msgs/ObjectList objects
+ropod_ros_msgs/Object[] objects
 ---
