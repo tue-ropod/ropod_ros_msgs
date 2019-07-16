@@ -89,6 +89,9 @@ add_action_files(
   ExecuteExperiment.action
   GetObjects.action
   GetDockingPose.action
+  GoTo.action
+  Dock.action
+  NavElevator.action
 )
 
 add_service_files(
