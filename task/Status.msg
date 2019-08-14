@@ -118,3 +118,4 @@ uint16 ELEVATOR_ACTION_PREEMPTED=36
 uint16 domain      # cf. DOMAINS section
 uint16 module_code # cf. MODULE CODES section
 uint16 status_code # cf. STATUS CODES section; NOTE: every module has its OWN status codes. Only the first 8 are in common to all.
+string sm_state       # optional state of any state machine
