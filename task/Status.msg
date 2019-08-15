@@ -40,6 +40,7 @@ uint16 RUNNING=6     # FTSM; in case a more detailed code is not available
 uint16 RECOVERING=7  # FTSM; in case a more detailed code is not available
 uint16 STOPPED=8     # FTSM; in case a more detailed code is not available
 
+uint16 NAVIGATION_IN_PROGRESS=9
 uint16 GOAL_REACHED=10 # was initially uint16 REACHED=10 for Navigation actions
 uint16 GOAL_NOT_REACHABLE=11
 
