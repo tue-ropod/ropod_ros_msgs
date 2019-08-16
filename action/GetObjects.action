@@ -1,0 +1,12 @@
+# optional area within which the objects should exist
+geometry_msgs/Polygon area
+# optional type of object to return
+string type
+# optional, used only by ropod wm mediator action server
+string area_id
+---
+# if false; query was not able to executed
+# note: could be true with an empty list of objects returned
+bool success
+ropod_ros_msgs/Object[] objects
+---

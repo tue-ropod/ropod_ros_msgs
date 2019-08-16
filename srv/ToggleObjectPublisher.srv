@@ -1,0 +1,7 @@
+string publisher_type
+# area within which the published objects should exist
+geometry_msgs/Polygon area
+# true to start publisher, false to stop publisher
+bool enable_publisher
+---
+bool success
