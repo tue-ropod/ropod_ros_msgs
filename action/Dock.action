@@ -1,0 +1,10 @@
+# goal
+Action action
+string load_type
+string load_id
+---
+# result
+bool success
+---
+# feedback
+TaskProgressDOCK feedback

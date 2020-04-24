@@ -40,6 +40,7 @@ uint16 RUNNING=6     # FTSM; in case a more detailed code is not available
 uint16 RECOVERING=7  # FTSM; in case a more detailed code is not available
 uint16 STOPPED=8     # FTSM; in case a more detailed code is not available
 
+uint16 NAVIGATION_IN_PROGRESS=9
 uint16 GOAL_REACHED=10 # was initially uint16 REACHED=10 for Navigation actions
 uint16 GOAL_NOT_REACHABLE=11
 
@@ -93,18 +94,29 @@ uint16 ACTIVE_SEARCH_MODE=27
 #uint16 STOPPED=8     # FTSM; in case a more detailed code is not available
 
 #uint16 GOAL_REACHED=10 # same naming as for navigation
-uint16 WAITING=9      # was initially uint16 WAITING=13
-uint16 ENTERING=10    # was initially uint16 ENTERING=14
-uint16 EXITING=11     # was initially uint16 EXITING=15
+uint16 WAITING=11      # was initially uint16 WAITING=13
+uint16 ENTERING=12    # was initially uint16 ENTERING=14
+uint16 RIDING_ELEVATOR=13
+uint16 EXITING=14     # was initially uint16 EXITING=15
 
-uint16 WAITING_POINT_REACHED=12
-uint16 ENTERING_ELEVATOR=13
-uint16 ENTERED_ELEVATOR=14
-uint16 DESTINATION_FLOOR_REACHED=15
-uint16 EXITED_ELEVATOR=16
+uint16 WAITING_POINT_REACHED=15
+uint16 DOOR_OPENED=16
+uint16 ENTERING_ELEVATOR=17
+uint16 ENTERED_ELEVATOR=18
+uint16 DESTINATION_FLOOR_REACHED=19
+uint16 EXITED_ELEVATOR=20
 
+uint16 WAITING_FOR_ELEVATOR_FAILED=29
+uint16 WAITING_POINT_UNREACHABLE=30
+uint16 ELEVATOR_WAIT_TIMEOUT=31
+uint16 ELEVATOR_ENTERING_FAILED=32
+uint16 ELEVATOR_RIDE_TIMEOUT=33
+uint16 ELEVATOR_RIDE_MAP_CHANGE_FAILURE=34
+uint16 ELEVATOR_EXITING_FAILED=35
+uint16 ELEVATOR_ACTION_PREEMPTED=36
 
 # ****************************************************************************
 uint16 domain      # cf. DOMAINS section
 uint16 module_code # cf. MODULE CODES section
 uint16 status_code # cf. STATUS CODES section; NOTE: every module has its OWN status codes. Only the first 8 are in common to all.
+string sm_state       # optional state of any state machine

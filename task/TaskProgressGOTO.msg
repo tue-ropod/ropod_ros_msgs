@@ -3,6 +3,7 @@ string robot_id
 string action_id
 string action_type
 string area_name
+string area_id
 string subarea_name
 string subarea_id
 

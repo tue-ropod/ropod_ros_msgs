@@ -51,6 +51,9 @@ add_message_files(
    PathPlan.msg
    BlockedConnection.msg
    Side.msg
+   KeyValue.msg
+   Object.msg
+   ObjectList.msg
 )
 
 
@@ -85,12 +88,18 @@ add_action_files(
   GetElevatorWaypoints.action
   GetNearestWLAN.action
   ExecuteExperiment.action
+  GetObjects.action
+  GetDockingPose.action
+  GoTo.action
+  Dock.action
+  NavElevator.action
 )
 
 add_service_files(
   DIRECTORY srv
   FILES
   GetDoorStatus.srv
+  ToggleObjectPublisher.srv
 )
 
 generate_messages(
