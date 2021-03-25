@@ -20,6 +20,11 @@ add_message_files(
    SmartWheelOutputData.msg
    SmartWheelCommand.msg
    SmartWheelCommandList.msg
+   FlockActuationConstraints.msg
+   FlockAgentStatus.msg
+   FlockAgentWrenchVelocityCommand.msg
+   FlockAgentWrenchVelocityCommandList.msg
+   FlockStatus.msg
 )
 
 add_message_files(
